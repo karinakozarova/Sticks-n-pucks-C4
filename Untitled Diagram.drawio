@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T22:15:00.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Oiz80Q_KopZW_R4AcN9g" version="13.10.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-03T22:55:05.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="sBeWzAEp8aIJAysM2YPi" version="13.10.6" type="github" pages="4">
   <diagram id="JHjxl6rXeeptxG1DzDIu" name="Page-1">
     <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,7 +286,7 @@
         </object>
         <object label="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Sticks&#39;n&#39;pucks&lt;br&gt;&lt;/b&gt;[Software system]&lt;/font&gt;" placeholders="1" name="Domain Name" id="JV11G2gHLhdAqpbSDqh5-0">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#828282;fillColor=none;fontColor=#000000;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=bottom;dashed=1;strokeWidth=1;perimeterSpacing=0;spacing=2;spacingTop=0;fontSize=10;dashPattern=8 8;" parent="yyUiv2k0mnsEltlwFimP-1" vertex="1">
-            <mxGeometry x="60" y="360" width="290" height="350" as="geometry" />
+            <mxGeometry x="60" y="370" width="290" height="350" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="KQNLNMcwBLuwvthaVqmm-0" value="&lt;div style=&quot;font-family: helvetica; font-size: 9px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: helvetica; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;[Container: %technology%]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: helvetica; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: helvetica; font-size: 9px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); color: rgb(255, 255, 255);&quot;&gt;%description%&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="yyUiv2k0mnsEltlwFimP-1" vertex="1">
@@ -304,6 +304,59 @@
               <mxPoint x="630" y="460" as="targetPoint" />
               <mxPoint as="offset" />
             </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vNAvZl7QjXxnfk9TZqLu" name="Page-4">
+    <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="IPgy6yM4qCA0l31l_Qpo-0" />
+        <mxCell id="IPgy6yM4qCA0l31l_Qpo-1" parent="IPgy6yM4qCA0l31l_Qpo-0" />
+        <object label="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Database&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Container: MySQL]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 8px&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;Stores user registration information, teams, player statistics, games information, statistics, etc&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" name="Container Name" description="Description" technology="e.g. PostgreSQL" id="JEnYF1Fvz3offgFsqcfW-0">
+          <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#2F6FA6;strokeWidth=1;fillColor=#3B8CD2;fontSize=9;fontColor=#000000;align=center;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="90" y="705" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;API&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Software System&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;A REST API, handling the data of the system&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="External System Name" description="Description of Software System" id="_SUjy9MXC5A2pB0z08C8-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#FFFFFF;strokeColor=#828282;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="450" y="705" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Web Application&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Container: Java and Spring Booy]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Manages the data forwarding and delivers the static content&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Software System Name" description="Description" id="99VsMWmBKfu-NgFogZuD-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0067BA;fontColor=#FFFFFF;strokeColor=#005DA8;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="220" y="190" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Sign in Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Allows users to sign in to the web application&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="90" y="410" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Teams Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to teams&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="300" y="410" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Games Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to games and game statistics&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="490" y="410" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Players Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to players&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="300" y="550" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Penalties Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Acts as source of truth for information about penalties&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="490" y="550" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Users Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to account management&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="90" y="550" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
       </root>
