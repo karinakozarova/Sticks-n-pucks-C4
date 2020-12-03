@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T23:07:30.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qjJkJnxP99IOp_PvtUnj" version="13.10.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-03T23:27:43.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="dsPa81AIdr4p57WuvqPh" version="13.10.6" type="github" pages="4">
   <diagram id="JHjxl6rXeeptxG1DzDIu" name="Page-1">
     <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -310,58 +310,200 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vNAvZl7QjXxnfk9TZqLu" name="Page-4">
-    <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IPgy6yM4qCA0l31l_Qpo-0" />
         <mxCell id="IPgy6yM4qCA0l31l_Qpo-1" parent="IPgy6yM4qCA0l31l_Qpo-0" />
         <object label="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Database&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Container: MySQL]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 8px&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;Stores user registration information, teams, player statistics, games information, statistics, etc&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" name="Container Name" description="Description" technology="e.g. PostgreSQL" id="JEnYF1Fvz3offgFsqcfW-0">
           <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#2F6FA6;strokeWidth=1;fillColor=#3B8CD2;fontSize=9;fontColor=#000000;align=center;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="90" y="705" width="180" height="120" as="geometry" />
+            <mxGeometry x="70" y="970" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;API&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Software System&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;A REST API, handling the data of the system&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="External System Name" description="Description of Software System" id="_SUjy9MXC5A2pB0z08C8-0">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#FFFFFF;strokeColor=#828282;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="450" y="705" width="180" height="120" as="geometry" />
+            <mxGeometry x="401" y="970" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Web Application&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Container: Java and Spring Booy]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Manages the data forwarding and delivers the static content&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Software System Name" description="Description" id="99VsMWmBKfu-NgFogZuD-0">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0067BA;fontColor=#FFFFFF;strokeColor=#005DA8;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="220" y="190" width="180" height="120" as="geometry" />
+            <mxGeometry x="414" y="200" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Sign in Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Allows users to sign in to the web application&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-0">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="90" y="410" width="180" height="120" as="geometry" />
+            <mxGeometry x="70" y="410" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Teams Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to teams&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="300" y="410" width="180" height="120" as="geometry" />
+            <mxGeometry x="527" y="530" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Games Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to games and game statistics&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-2">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="490" y="410" width="180" height="120" as="geometry" />
+            <mxGeometry x="767" y="570" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Players Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to players&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-3">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="300" y="550" width="180" height="120" as="geometry" />
+            <mxGeometry x="311" y="540" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Penalties Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Acts as source of truth for information about penalties&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-4">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="490" y="550" width="180" height="120" as="geometry" />
+            <mxGeometry x="777" y="770" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Users Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to account management&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-5">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="90" y="550" width="180" height="120" as="geometry" />
+            <mxGeometry x="77" y="585" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;API Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Helper class for making requests to the API&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-6">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
-            <mxGeometry x="690" y="550" width="180" height="120" as="geometry" />
+            <mxGeometry x="401" y="760" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-0">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" target="L83C8q0s2tNWdTFa3ev6-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="167" y="529.9999999999998" as="sourcePoint" />
+              <mxPoint x="507" y="480" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-1">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="L83C8q0s2tNWdTFa3ev6-5" target="L83C8q0s2tNWdTFa3ev6-6">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="177" y="595" as="sourcePoint" />
+              <mxPoint x="197" y="730" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-2">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="L83C8q0s2tNWdTFa3ev6-3" target="L83C8q0s2tNWdTFa3ev6-6">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="187" y="550" as="sourcePoint" />
+              <mxPoint x="187" y="605" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-3">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="L83C8q0s2tNWdTFa3ev6-1" target="L83C8q0s2tNWdTFa3ev6-6">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="197" y="560" as="sourcePoint" />
+              <mxPoint x="197" y="615" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-4">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="L83C8q0s2tNWdTFa3ev6-2" target="L83C8q0s2tNWdTFa3ev6-6">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="207" y="570" as="sourcePoint" />
+              <mxPoint x="207" y="625" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-5">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" target="L83C8q0s2tNWdTFa3ev6-4">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="867" y="690" as="sourcePoint" />
+              <mxPoint x="217" y="635" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-6">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;entryX=1;entryY=0.667;entryDx=0;entryDy=0;exitX=-0.006;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="L83C8q0s2tNWdTFa3ev6-4" target="L83C8q0s2tNWdTFa3ev6-6">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="863" y="700" as="sourcePoint" />
+              <mxPoint x="863" y="760.96" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Uses&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="RnNZJtdF1Tctq_yQzdeZ-7">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="L83C8q0s2tNWdTFa3ev6-6" target="_SUjy9MXC5A2pB0z08C8-0">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="873" y="710" as="sourcePoint" />
+              <mxPoint x="873" y="770.96" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Reads from and writes to&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;[JDBC]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="QbQE-aDcEB9yzQGnHKZ6-0">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;elbow=vertical;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="_SUjy9MXC5A2pB0z08C8-0">
+            <mxGeometry x="0.0244" y="-20" width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="607" y="460" as="sourcePoint" />
+              <mxPoint x="237" y="1030" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b style=&quot;font-size: 12px&quot;&gt;Makes calls to&lt;br&gt;[HTTPS]&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="QbQE-aDcEB9yzQGnHKZ6-1">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="99VsMWmBKfu-NgFogZuD-0" target="L83C8q0s2tNWdTFa3ev6-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="411" y="669.9999999999998" as="sourcePoint" />
+              <mxPoint x="467.25" y="769.9999999999998" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b style=&quot;font-size: 12px&quot;&gt;Makes calls to&lt;br&gt;[HTTPS]&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="QbQE-aDcEB9yzQGnHKZ6-2">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;entryX=0.55;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" target="L83C8q0s2tNWdTFa3ev6-3">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="500" y="380" as="sourcePoint" />
+              <mxPoint x="627" y="539.9999999999998" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b style=&quot;font-size: 12px&quot;&gt;Makes calls to&lt;br&gt;[HTTPS]&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="QbQE-aDcEB9yzQGnHKZ6-3">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="99VsMWmBKfu-NgFogZuD-0" target="L83C8q0s2tNWdTFa3ev6-2">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="524" y="399.9999999999998" as="sourcePoint" />
+              <mxPoint x="637" y="549.9999999999998" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b style=&quot;font-size: 12px&quot;&gt;Makes calls to&lt;br&gt;[HTTPS]&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="QbQE-aDcEB9yzQGnHKZ6-4">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="99VsMWmBKfu-NgFogZuD-0" target="L83C8q0s2tNWdTFa3ev6-0">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="534" y="409.9999999999998" as="sourcePoint" />
+              <mxPoint x="647" y="559.9999999999998" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b style=&quot;font-size: 12px&quot;&gt;Makes calls to&lt;br&gt;[HTTPS]&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="QbQE-aDcEB9yzQGnHKZ6-5">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="99VsMWmBKfu-NgFogZuD-0" target="L83C8q0s2tNWdTFa3ev6-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="544" y="419.9999999999998" as="sourcePoint" />
+              <mxPoint x="657" y="569.9999999999998" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b style=&quot;font-size: 12px&quot;&gt;Makes calls to&lt;br&gt;[HTTPS]&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="QbQE-aDcEB9yzQGnHKZ6-6">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0.978;exitY=0.333;exitDx=0;exitDy=0;entryX=1.016;entryY=0.442;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="99VsMWmBKfu-NgFogZuD-0" target="L83C8q0s2tNWdTFa3ev6-4">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="554" y="429.9999999999998" as="sourcePoint" />
+              <mxPoint x="667" y="579.9999999999998" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1030" y="240" />
+                <mxPoint x="1020" y="823" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b style=&quot;font-size: 12px&quot;&gt;Makes calls to&lt;br&gt;[HTTPS]&lt;/b&gt;" placeholders="1" name="Dependency Operation Name" technology="JDBC" id="QbQE-aDcEB9yzQGnHKZ6-7">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IPgy6yM4qCA0l31l_Qpo-1" source="99VsMWmBKfu-NgFogZuD-0" target="L83C8q0s2tNWdTFa3ev6-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="564" y="439.9999999999998" as="sourcePoint" />
+              <mxPoint x="677" y="589.9999999999998" as="targetPoint" />
+              <Array as="points">
+                <mxPoint y="230" />
+                <mxPoint x="10" y="645" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Sticks&#39;n&#39;pucks Web Application&lt;br&gt;&lt;/b&gt;[Container]&lt;/font&gt;" placeholders="1" name="Domain Name" id="sISrky6rgoXqyKlffY52-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#828282;fillColor=none;fontColor=#000000;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=bottom;dashed=1;strokeWidth=1;perimeterSpacing=0;spacing=2;spacingTop=0;fontSize=10;dashPattern=8 8;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="40" y="370" width="950" height="540" as="geometry" />
           </mxCell>
         </object>
       </root>
