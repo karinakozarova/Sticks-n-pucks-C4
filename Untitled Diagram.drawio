@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T22:55:05.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="sBeWzAEp8aIJAysM2YPi" version="13.10.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-03T23:07:30.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qjJkJnxP99IOp_PvtUnj" version="13.10.6" type="github" pages="4">
   <diagram id="JHjxl6rXeeptxG1DzDIu" name="Page-1">
     <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,6 +357,11 @@
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Users Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Provides the functionality related to account management&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-5">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
             <mxGeometry x="90" y="550" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;API Controller&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Component: Spring Boot MVC Controller]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Helper class for making requests to the API&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Component Name" technology="e.g. Spring Bean" description="Description" id="L83C8q0s2tNWdTFa3ev6-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85baf0;fontColor=#000000;strokeColor=#6992BD;resizable=0;" vertex="1" parent="IPgy6yM4qCA0l31l_Qpo-1">
+            <mxGeometry x="690" y="550" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
       </root>
