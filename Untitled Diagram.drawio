@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T07:58:35.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="5FxSxsKYQl9mM7_ulFRa" version="13.10.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-04T10:14:09.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0H1wx-KXOc_H00kbbhvs" version="13.10.6" type="github" pages="4">
   <diagram id="JHjxl6rXeeptxG1DzDIu" name="Notations">
-    <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Level 1: System Context diagram" id="p6R25LpL6rDu1TVQxqPX">
-    <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="e1K1VD6MmtJ3X1J_XKfh-0" />
         <mxCell id="e1K1VD6MmtJ3X1J_XKfh-1" parent="e1K1VD6MmtJ3X1J_XKfh-0" />
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IreuxClvmB6iORlShXGn" name="Level 2: Container diagram">
-    <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="yyUiv2k0mnsEltlwFimP-0" />
         <mxCell id="yyUiv2k0mnsEltlwFimP-1" parent="yyUiv2k0mnsEltlwFimP-0" />
@@ -259,10 +259,10 @@
           </mxCell>
         </object>
         <object label="&lt;b&gt;Reads from and writes to&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;[JDBC]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="E1bOt4ZC8HGnfXmnpTCE-13">
-          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;elbow=vertical;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="yyUiv2k0mnsEltlwFimP-1" source="E1bOt4ZC8HGnfXmnpTCE-10" target="CGj04B_fqVY-b1EHtSBO-0" edge="1">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="yyUiv2k0mnsEltlwFimP-1" edge="1">
             <mxGeometry x="-0.0385" y="35" width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="443.9999999999998" y="370" as="sourcePoint" />
-              <mxPoint x="520" y="490" as="targetPoint" />
+              <mxPoint x="619" y="462" as="sourcePoint" />
+              <mxPoint x="269" y="622" as="targetPoint" />
               <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
@@ -294,7 +294,7 @@
         </mxCell>
         <object label="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Database&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Container: MySQL]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 8px&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;Stores user registration information, teams, player statistics, games information, statistics, etc&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" name="Container Name" description="Description" technology="e.g. PostgreSQL" id="CGj04B_fqVY-b1EHtSBO-0">
           <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#2F6FA6;strokeWidth=1;fillColor=#3B8CD2;fontSize=9;fontColor=#000000;align=center;resizable=0;" parent="yyUiv2k0mnsEltlwFimP-1" vertex="1">
-            <mxGeometry x="100" y="540" width="180" height="120" as="geometry" />
+            <mxGeometry x="100" y="560" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;b&gt;Makes API calls to&lt;/b&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="CGj04B_fqVY-b1EHtSBO-3">
@@ -306,11 +306,14 @@
             </mxGeometry>
           </mxCell>
         </object>
+        <mxCell id="NOKKqCyPxuySjnX937-Q-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="yyUiv2k0mnsEltlwFimP-1" source="KQNLNMcwBLuwvthaVqmm-0" target="KQNLNMcwBLuwvthaVqmm-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="vNAvZl7QjXxnfk9TZqLu" name="Level 3: Component diagram">
-    <mxGraphModel dx="2500" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IPgy6yM4qCA0l31l_Qpo-0" />
         <mxCell id="IPgy6yM4qCA0l31l_Qpo-1" parent="IPgy6yM4qCA0l31l_Qpo-0" />
